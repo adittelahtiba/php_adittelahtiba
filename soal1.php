@@ -11,7 +11,7 @@ for ($a = $jml; $a > 0; $a--) {
     for ($c = $a; $c > 0; $c--) {
         $total += $c;
     }
-    echo "<tr><td colspan='" . $jml . "'>Total : " . $total . "</td></tr>";
+    echo "<tr><td colspan='" . $jml . "'>TOTAL : " . $total . "</td></tr>";
 
     echo "<tr>\n";
     for ($b = $a; $b > 0; $b--) {
